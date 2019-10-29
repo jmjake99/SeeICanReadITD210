@@ -13,31 +13,37 @@ html {
 
 header {
 	margin-top: 30px;
+	margin-bottom: 35px;
 	text-align: center;
 	color: yellow;
 	font-size: 45px;
+	background-color: red;
 }
+	
 
-#page {
+h1 {
   text-align: center;
-  margin-top:45px;
+  margin-top:0px;
   margin-bottom:0px;
   background-color: white;
 }
 
-h2 {
-	font-size: 18px;
-	background-color: gray;
+#video {
 	text-align: left;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-size: 500px;
+}
+
+body {
+	background-color: gray;
+	margin-top: 0px;
 }
 
 h3 {
 	font-size: 25px;
-	background-color: gray;
 	text-align: left;
 	margin-left: 0px;
 	margin-right: 10px;
@@ -80,6 +86,7 @@ nav a {
 font-family: sans-serif;
 
 color:blue;
+
 }
 
 nav a:link, nav:visited{
@@ -89,7 +96,6 @@ text-decoration:none;
 
 nav a:hover,nav a:active{
 color:  blue;
-backround-color: blue;
 }
 
 footer {
